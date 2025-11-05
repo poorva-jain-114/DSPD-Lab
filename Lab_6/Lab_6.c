@@ -1,5 +1,11 @@
 //Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855
 
+/* AIm: Implement Binary search tree(BST) with following Menu operations.
+        1.	Search an element in BST(Display NULL if not found, If found Display Found)
+        2.	Insert an element in BST
+        3.	Delete leaf element in BST
+        4.	Exit
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

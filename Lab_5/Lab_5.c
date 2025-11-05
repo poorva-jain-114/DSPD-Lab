@@ -1,5 +1,9 @@
 //Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855
 
+/* AIM: Write a program to insert Number of Nodes in the Binary Tree and Traverse in Inorder , 
+        Preorder and Post Order and  Search an element in Binary Tree(Display NULL if not found, 
+        If found Display Found)
+        */
 #include <stdio.h>
 #include <stdlib.h>
 
