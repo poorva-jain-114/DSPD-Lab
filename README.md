@@ -21,16 +21,14 @@ Go through all these programs to learn How to solve any program or How to approa
 
 ## DSPD_Lab_Practicals:
 
-1. [Lab_1A : Linux Commands](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_1A/Lab_1A.c)
-2. [Lab_1B : Arithematic and Conditional Opertaors](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_1B.c)
-3. [Lab_1C : Conditional and Unconditional Statements](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_1C.c)
-4. [Lab_2 : Looping Statements](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_2.c)
-5. [Lab_3 : Function and Recursion](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_3.c)
-6. [Lab_4 : 1D Array](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_4.c)
-7. [Lab_5: 2D Array](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_5.c)
-8. [Lab_6: Strings and Pointers](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_6.c)
-9. [Lab_09 : Structure](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_7.c)
-10. [Lab_10 : File](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_8.c)
+1. [Lab_1A : Sum_of_odd_and _even_positions](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_1A/Lab_1A.c)
+2. [Lab_1B : Binary_Search](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_1B.c)
+3. [Lab_1C : Structure_sorting_by_bubble_sort](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_1C.c)
+4. [Lab_2 : Stack_Operations](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_2.c)
+5. [Lab_3 : Queue_Operations](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_3.c)
+6. [Lab_4 : Linked_List_travesal](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_4.c)
+7. [Lab_5: Binary_Tree_Creation](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_5.c)
+8. [Lab_6: Binary_Search_Tree_operations](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_6.c)
 
 <hr> </hr>
 Thankyou for your visit.<br>If you have any suggestion or any query related to this Repo,<br>You can Leave your comment on 
