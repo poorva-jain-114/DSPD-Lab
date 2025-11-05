@@ -1,0 +1,100 @@
+//Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Node {
+    int data;
+    struct Node *left;
+    struct Node *right;
+};
+
+struct Node* createNode(int value) {
+    struct Node* newNode = (struct Node*) malloc(sizeof(struct Node));
+    newNode->data = value;
+    newNode->left = newNode->right = NULL;
+    return newNode;
+}
+
+struct Node* insert(struct Node* root, int value) {
+    if (root == NULL)
+        return createNode(value);
+
+    int direction;
+    printf("Insert %d to the left (1) or right (2) of %d? ", value, root->data);
+    scanf("%d", &direction);
+
+    if (direction == 1)
+        root->left = insert(root->left, value);
+    else if (direction == 2)
+        root->right = insert(root->right, value);
+    else
+        printf("Invalid choice!\n");
+
+    return root;
+}
+void inorder(struct Node* root) {
+    if (root != NULL) {
+        inorder(root->left);
+        printf("%d ", root->data);
+        inorder(root->right);
+    }
+}
+void preorder(struct Node* root) {
+    if (root != NULL) {
+        printf("%d ", root->data);
+        preorder(root->left);
+        preorder(root->right);
+    }
+}
+void postorder(struct Node* root) {
+    if (root != NULL) {
+        postorder(root->left);
+        postorder(root->right);
+        printf("%d ", root->data);
+    }
+}
+void search(struct Node* root, int key) {
+    if (root == NULL) {
+        printf("NULL\n");
+        return;
+    }
+    if (root->data == key) {
+        printf("Found\n");
+        return;
+    }
+    search(root->left, key);
+    search(root->right, key);
+}
+int main() {
+    struct Node* root = NULL;
+    int value, key;
+    printf("\n  Code by - Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855\n");
+    printf("Enter elements to insert into the Binary Tree (0 to stop):\n");
+
+    while (1) {
+        printf("Enter value: ");
+        scanf("%d", &value);
+        if (value == 0)
+            break;
+        if (root == NULL)
+            root = createNode(value);
+        else
+            root = insert(root, value);
+    }
+
+    printf("\nInorder Traversal: ");
+    inorder(root);
+
+    printf("\nPreorder Traversal: ");
+    preorder(root);
+
+    printf("\nPostorder Traversal: ");
+    postorder(root);
+
+    printf("\n\nEnter element to search: ");
+    scanf("%d", &key);
+    search(root, key);
+    printf("\n  Code by - Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855\n");
+    return 0;
+}
