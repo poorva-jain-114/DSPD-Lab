@@ -12,7 +12,7 @@
 
 <hr> </hr>
 <h2>
-    Brief Introduction of this ITCP-Lab_C Repository:-
+    Brief Introduction of this DSPD_Lab_Practicals Repository:-
 </h2>
 "DSPD_Lab_Practicals" Repository has been part of learning and teaching material for the most of the Engineering and Science Institutes around the country for years now.
 <br>This Repo contains total 13 Lab Practical Problems of C language on different topics like array, structure, binary search, bubble sort, structure, queue, stack, linked lists, tree, graph, file handling, hash set which covers maximum part of any Programming Language.</br>
