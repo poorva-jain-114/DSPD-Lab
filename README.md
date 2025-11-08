@@ -21,8 +21,15 @@ Go through all these programs to learn How to solve any program or How to approa
 
 ## DSPD_Lab_Practicals:
 
-1. [Lab_1A : Sum_of_odd_and _even_positions](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_1A/Lab_1A.c)
-2. [Lab_1B : Binary_Search](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_1B/Lab_1B.c)
+1. [Lab_1A :	Write a program to accept ‘n’ numbers into an array and then calculate the sum of numbers present in odd positions and even positions respectively.	](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_1A/Lab_1A.c)
+2. [Lab_1B : Write a program to implement a Binary Search algorithm. Write a search function which takes a SearchList as its first parameter and a Comparable as its second. If either parameter is null, or if the SearchList is empty, you should return NULL.
+ implement the following algorithm: 
+• Examine the value in the middle of the current array and print it. 
+• If the midpoint value is the value that we are looking for, return true 
+• If the value that we are looking for is greater than the midpoint value, adjust the current array to start at the midpoint and print the index.
+• if the value that we are looking for is less than the midpoint value, adjust the current array to end at the midpoint  and print the index.
+• Continue until you find the value, or until the start reaches the end, 
+](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_1B/Lab_1B.c)
 3. [Lab_1C : Structure_sorting_by_bubble_sort](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_1C/Lab_1C.c)
 4. [Lab_2 : Stack_Operations](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_2/Lab_2.c)
 5. [Lab_3 : Queue_Operations](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_3/Lab_3.c)
