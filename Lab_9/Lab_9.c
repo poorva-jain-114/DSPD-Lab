@@ -6,7 +6,7 @@
 #include <stdio.h>
 int main() {
     int hash[7], i, key, index, n;
-
+    printf("\n  Code by - Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855\n");
     for(i = 0; i < 7; i++)
         hash[i] = -1;
 
@@ -27,4 +27,5 @@ int main() {
     printf("\nFinal Hash Table:\n");
     for(i = 0; i < 7; i++)
         printf("Index %d -> %d\n", i, hash[i]);
+    printf("\n  Code by - Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855\n");
 }

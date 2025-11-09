@@ -42,7 +42,7 @@ void DFS(int node) {
 
 int main() {
     int i, j, start;
-
+    printf("\n  Code by - Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855\n");
     printf("Enter number of nodes: ");
     scanf("%d", &n);
 
@@ -60,6 +60,6 @@ int main() {
     for(i = 1; i <= n; i++) visited[i] = 0;
     printf("\nDFS Traversal: ");
     DFS(start);
-
+    printf("\n  Code by - Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855\n");
     return 0;
 }

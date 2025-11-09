@@ -13,7 +13,7 @@ int main() {
     FILE *srcFile, *destFile;
     char srcName[100], destName[100];
     char ch;
-
+    printf("\n  Code by - Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855\n");
     printf("Enter source file name: ");
     scanf("%s", srcName);
 
@@ -41,6 +41,6 @@ int main() {
 
     fclose(srcFile);
     fclose(destFile);
-
+    printf("\n  Code by - Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855\n");
     return 0;
 }

@@ -23,7 +23,7 @@ int uni(int i, int j) {
 int main() {
     int cost[10][10];
     int n, i, j, min, a, b, u, v, ne = 1, mincost = 0;
-
+    printf("\n  Code by - Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855\n");
     printf("Enter number of nodes: ");
     scanf("%d", &n);
 
@@ -60,6 +60,6 @@ int main() {
     }
 
     printf("\nMinimum Cost = %d\n", mincost);
-
+    printf("\n  Code by - Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855\n");
     return 0;
 }

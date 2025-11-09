@@ -6,56 +6,45 @@
 #include <stdio.h>
 #include <string.h>
 
-struct student {
+struct Student {
     char name[50];
-    int rollNumber;
-    int age;
+    float marks1, marks2, marks3;
     float avgMarks;
 };
-void bubbleSort(struct student students[], int n) {
-    int i, j;
-    struct student temp;
-    for (i = 0; i < n - 1; i++) {
-        for (j = 0; j < n - i - 1; j++) {
-            if (students[j].avgMarks < students[j + 1].avgMarks) {
-                temp = students[j];
-                students[j] = students[j + 1];
-                students[j + 1] = temp;
-            }
-        }
-    }
-}
-void printStudents(struct student students[], int n) {
-    int i;
-    printf("\nStudent list (sorted by average marks):\n");
-    for (i = 0; i < n; i++) {
-        printf("\nName: %s\n", students[i].name);
-        printf("Roll No: %d\n", students[i].rollNumber);
-        printf("Age: %d\n", students[i].age);
-        printf("Average Marks: %f\n", students[i].avgMarks);
-    }
-}
+
 int main() {
+    struct Student s[100], temp;
     int n;
     printf("\n  Code by - Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855\n");
     printf("Enter number of students: ");
     scanf("%d", &n);
-    struct student students[n];
 
-    printf("\nEnter details of each student:\n");
     for (int i = 0; i < n; i++) {
-        printf("\nStudent %d:\n", i + 1);
-        printf("Enter name: ");
-        scanf("%s",students[i].name); 
-        printf("Enter roll number: ");
-        scanf("%d", &students[i].rollNumber);
-        printf("Enter age: ");
-        scanf("%d", &students[i].age);
-        printf("Enter average marks: ");
-        scanf("%f", &students[i].avgMarks);
+        printf("\nEnter details of student %d\n", i + 1);
+        printf("Name: ");
+        scanf("%s", s[i].name);
+        printf("Enter marks of 3 subjects: ");
+        scanf("%f %f %f", &s[i].marks1, &s[i].marks2, &s[i].marks3);
+
+        s[i].avgMarks = (s[i].marks1 + s[i].marks2 + s[i].marks3) / 3.0;
     }
-    bubbleSort(students, n);
-    printStudents(students, n);
-    printf("\n  Code by - Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855");
+
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+            if (s[j].avgMarks < s[j + 1].avgMarks) {
+                temp = s[j];
+                s[j] = s[j + 1];
+                s[j + 1] = temp;
+            }
+        }
+    }
+
+    printf("\nStudents sorted in descending order of Average Marks:\n");
+    printf("Name\t\tMarks1\tMarks2\tMarks3\tAverage\n");
+    for (int i = 0; i < n; i++) {
+        printf("%-10s\t%.2f\t%.2f\t%.2f\t%.2f\n", 
+               s[i].name, s[i].marks1, s[i].marks2, s[i].marks3, s[i].avgMarks);
+    }
+    printf("\n  Code by - Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855\n");
     return 0;
 }
