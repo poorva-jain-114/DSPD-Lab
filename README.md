@@ -50,7 +50,7 @@ d. Display the status of QUEUE
 e. Exit
 Support the program with appropriate functions for each of the above operations.](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_3/Lab_3.c)
 
-6.[Lab_4 : This C program creates a linked list to store integer elements. It prompts the user to enter elements and add them to the list until the user enters 0. It then traverses the list and prints each element and "=>" until reaching the null pointer. Finally, it displays the number of nodes in the list.](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_4/Lab_4.c)
+6. [Lab_4 : This C program creates a linked list to store integer elements. It prompts the user to enter elements and add them to the list until the user enters 0. It then traverses the list and prints each element and "=>" until reaching the null pointer. Finally, it displays the number of nodes in the list.](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_4/Lab_4.c)
 
 7. [Lab_5: 	Write a program to insert Number of Nodes in the Binary Tree and Traverse in Inorder , Preorder and Post Order and  Search an element in Binary Tree(Display NULL if not found, If found Display Found)](https://github.com/poorva-jain-114/DSPD-Lab/blob/main/Lab_5/Lab_5.c)
 
