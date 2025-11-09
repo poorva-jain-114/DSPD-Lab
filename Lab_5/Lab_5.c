@@ -25,15 +25,13 @@ struct Node* insert(struct Node* root, int value) {
         return createNode(value);
 
     int direction;
-    printf("Insert %d to the left (1) or right (2) of %d? ", value, root->data);
+    printf("Insert %d to the left (enter 1) or right(any other number) of %d? ", value, root->data);
     scanf("%d", &direction);
 
     if (direction == 1)
-        root->left = insert(root->left, value);
-    else if (direction == 2)
-        root->right = insert(root->right, value);
+        root->left = insert(root->left, value);          
     else
-        printf("Invalid choice!\n");
+        root->right = insert(root->right, value);
 
     return root;
 }
