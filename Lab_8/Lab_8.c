@@ -1,3 +1,7 @@
+//Poorva_Jain  IT-B-114   3rd sem    Reg no: 24070855
+
+/*AIM: Write a Program to implement Kruskal's Algorithm in order to find the Minimum Spanning Tree(MST)
+        of a connected,weighted and undirected graph. */
 #include <stdio.h>
 
 int parent[10];
